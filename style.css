@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "VarelaRound";
+  src: url("./assets/fonts/VarelaRound-Regular.ttf");
+}
+
+body {
+  font-family: "VarelaRound", sans-serif;
+  padding: 20px 0px 50px 0px;
+  background-color: #f2f1f7;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.projects {
+  width: 80%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  border: 2px solid #fe786d;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.card__image {
+  width: 200px;
+}
+
+.card__text {
+  text-align: center;
+}
